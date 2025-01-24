@@ -1,11 +1,15 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 
-class Customer extends React.Component{
-    render(){
-        return(
-            <h1>customer</h1>
-        );
-    }
+const Customer =()=>{
+    const params = useParams();
+return(
+    <div>
+        <p>{params.id}</p>
+        <p>{params.name}</p>
+    <h1>Customer </h1>
+    </div>
+)
 
 };
 export default Customer;

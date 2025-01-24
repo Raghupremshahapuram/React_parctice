@@ -11,20 +11,21 @@ import Functional from './Components/Functional';
 import Lifecycle from './Components/Lifecycle';
 import Header from './Components/MusicComponents/Header';
 import Products from './Components/MusicComponents/Products';
+import Routing from './Components/Routing';
 import State from './Components/State';
 import TextState from './Components/TextState';
 import Event1 from './Components/event1';
-
 
 function App() {
 
   return (
     <div >
       
-        <h2>
+       
+<Routing/>
         {/* <Header/>
         <Products/> */}
-        </h2>    
+          
         {/* <Component1/>
         <Component3/> */}
         {/* <Component4/> */}
@@ -41,7 +42,7 @@ function App() {
      <Form1/> */}
      {/* <Form2/> */}
     
-     <Form1/>
+     
      
 
     </div>
